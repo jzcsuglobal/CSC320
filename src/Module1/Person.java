@@ -82,7 +82,7 @@ public class Person {
 
     public void Describe()
     {
-        System.out.println("-- Describing Module1.Person! --");
+        System.out.println("-- Describing Person! --");
         System.out.println("First Name: " + GetFirstName());
         System.out.println("Last Name: " + GetLastName());
         System.out.println("Address: " + GetAddress());

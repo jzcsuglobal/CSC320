@@ -37,7 +37,7 @@ public class Main {
         person.Describe();
 
         // Instantiate second Module1.Person with assigned values, then describe.
-        var secondPerson = new Person("Second", "Module1.Person", "3478 Imdonesville", "Aurora", "12455");
+        var secondPerson = new Person("Second", "Person", "3478 Imdonesville", "Aurora", "12455");
         secondPerson.Describe();
 
     }
