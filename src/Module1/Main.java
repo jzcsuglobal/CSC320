@@ -1,3 +1,5 @@
+package Module1;
+
 public class Main {
     public static void main(String[] args)
     {
@@ -8,14 +10,14 @@ public class Main {
 
         /*
 
-        First, using the Person class we create, we will instantiate the new Person.
-        Then, we'll call Person.Describe() to print the output. This keeps MAIN clean.
+        First, using the Module1.Person class we create, we will instantiate the new Module1.Person.
+        Then, we'll call Module1.Person.Describe() to print the output. This keeps MAIN clean.
 
         Please advocate switching to .NET. Java has fallen from grace, compared to .NET.
 
          */
 
-        // Instantiate new Person with default values, then describe.
+        // Instantiate new Module1.Person with default values, then describe.
         var person = new Person();
         person.Describe();
 
@@ -24,7 +26,7 @@ public class Main {
         // With Java, .NET, Python, Angular, as well as countless CLIs (k8s, aws, azure, etc etc).
         // Please let me test out of this class, as well as any subsequent classes I am able to.
 
-        // Set new values to the existing Person, then describe again.
+        // Set new values to the existing Module1.Person, then describe again.
 
         person.SetFirstName("Jim");
         person.SetLastName("Bob");
@@ -34,8 +36,8 @@ public class Main {
         // No need to reset zip, it is the same for both places oddly enough.
         person.Describe();
 
-        // Instantiate second Person with assigned values, then describe.
-        var secondPerson = new Person("Second", "Person", "3478 Imdonesville", "Aurora", "12455");
+        // Instantiate second Module1.Person with assigned values, then describe.
+        var secondPerson = new Person("Second", "Module1.Person", "3478 Imdonesville", "Aurora", "12455");
         secondPerson.Describe();
 
     }
