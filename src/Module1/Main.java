@@ -18,7 +18,7 @@ public class Main {
          */
 
         // Instantiate new Module1.Person with default values, then describe.
-        var person = new Person();
+        Person person = new Person();
         person.Describe();
 
         // FROM THIS POINT FORWARD, THE ASSIGNMENT IS FINISHED.
@@ -37,7 +37,7 @@ public class Main {
         person.Describe();
 
         // Instantiate second Module1.Person with assigned values, then describe.
-        var secondPerson = new Person("Second", "Person", "3478 Imdonesville", "Aurora", "12455");
+        Person secondPerson = new Person("Second", "Person", "3478 Imdonesville", "Aurora", "12455");
         secondPerson.Describe();
 
     }
